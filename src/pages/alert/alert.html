@@ -1,0 +1,15 @@
+<ion-content padding>
+  <ion-card>
+    <ion-card-title padding>Obra disponible</ion-card-title>    
+    <img src="../../assets/imgs/logo.png"/>
+    <ion-card-content>
+      <p>{{art.message}}</p>
+      <button ion-button icon-only color="secondary" block (click)='show()'>
+        <ion-icon name="videocam"></ion-icon>
+      </button>
+      <button ion-button icon-only color="danger" block (click)='close()'>
+        <ion-icon name="close-circle"></ion-icon>
+      </button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
